@@ -1,0 +1,9 @@
+# ros_ws/src/llama_ros2/3rdparty/llama.cpp/
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+# ros_ws/src/llama_ros2/3rdparty/llama.cpp/
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
