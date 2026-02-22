@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
-
+#最简板本之后会使用llama server
 set(LLAMA_STANDALONE OFF CACHE BOOL "" FORCE)
 set(LLAMA_CURL OFF CACHE BOOL "" FORCE)
 set(LLAMA_BUILD_TESTS OFF CACHE BOOL "" FORCE)
