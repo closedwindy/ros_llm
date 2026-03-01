@@ -1,0 +1,14 @@
+# Goal: 客户端发送的请求
+string prompt
+int32 max_tokens
+float32 temperature
+---
+# Result: 服务器返回的最终结果
+bool success
+string response
+float64 latency
+int32 total_tokens
+---
+# Feedback: 执行过程中的进度反馈
+int32 tokens_generated
+float32 progress
